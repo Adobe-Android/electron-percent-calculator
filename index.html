@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Percent Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+  </head>
+  <body>
+    <!-- <h1>Percent Calculator</h1> -->
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    <!-- We are using Node.js <script>document.write(process.versions.node)</script>, -->
+    <!-- Chromium <script>document.write(process.versions.chrome)</script>, -->
+    <!-- and Electron <script>document.write(process.versions.electron)</script>. -->
+    
+    <div id="calculator">
+      <button id="clear-btn">C</button>
+      <input id="number-box" type="number" placeholder="0">
+      <button id="percent-btn">%</button>
+      <input id="percent-box" type="number" placeholder="%">
+      <input id="output-box" type="number" disabled="" placeholder="0">
+    </div>
+
+    <script>
+      // You can also require other files to run in this process
+      require('./calculator.js')
+      require('./renderer.js')
+    </script>
+  </body>
+</html>

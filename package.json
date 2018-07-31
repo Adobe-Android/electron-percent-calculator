@@ -1,0 +1,19 @@
+{
+  "name": "percent-calculator",
+  "version": "1.0.0",
+  "description": "A minimal Electron percentage calculator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "calculator"
+  ],
+  "author": "David Brown",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "2.0.5"
+  }
+}
