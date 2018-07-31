@@ -1,5 +1,5 @@
 # Percent Calculator
-A simple percentage calculator buit using electron.
+A simple and easy to use percentage calculator built with electron. 
 
 ![Screenshot](images/app.PNG)
 
